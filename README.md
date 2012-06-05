@@ -11,7 +11,6 @@ What is it?
 
 Each point can be turned on and off independently, so you only have to position the points you need, and the points can be animated using keyframes, allowing you to extract a moving object for instance.
 
-The encoded version of 50 Point Bezier Matte is free. There are no watermarks or restrictions in the free version. The source code is available for US$40. If you are interested email me to arrange payment details.
 
 27 Sep 2004 - Version 2
 -----------------------
@@ -23,6 +22,13 @@ I have also improved point labels a bit, which can now be colored to distinguish
 Finally, I have added an option to blur the mask. Unlike applying the Mask Feather filter after the 50 Point Bezier Matte, this option does not blur the on screen controls in preview mode, so you can see exactly what the matte will look like rendered.
 
 Many thanks to all those who wrote in with feature ideas, your feedback was always appreciated and welcome.
+
+5 June 2012
+-----------
+
+Since I had to take the original site off .Mac I've decided to release the source under the MIT licence.
+
+I have not used Final Cut for several years and am not sure this even still works with the current version. 
 
 
 What's a Bezier Curve?
@@ -57,12 +63,13 @@ The controls for each point are the same, and function as described above. The s
 Points 3 to 50 must be turned on using the Activate checkbox before they can be set.
 
 Known Issues
+------------
 
 Point Positioning: If you apply the 50 Point Bezier Matte to a clip that has had adjustments made under the Motion tab (rotation, positioning, scaling etc) you will have dificulty positioning the points. To get around this problem, select the clip on the timeline and from the Sequence menu select 'Nest Item(s)...'. Enter a name for the new sequence and click OK. Now apply the 50 Point Bezier Matte to the nested clip which will be on the timeline in place of the original clip. To edit the filter's controls drag the nested clip to the Viewer window. To edit the motion effects open the nested clip's timeline by double clicking it.
 
 
-MIT License
-===========
+License
+=======
 
 Copyright (C) 2003 Tom Henderson
 
