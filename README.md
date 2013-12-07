@@ -12,24 +12,15 @@ What is it?
 Each point can be turned on and off independently, so you only have to position the points you need, and the points can be animated using keyframes, allowing you to extract a moving object for instance.
 
 
-27 Sep 2004 - Version 2
------------------------
-
-Version 2 is now available. This version mainly fixes a bug that has been annoying me about the filter since I first released it - that it destroyed the existing alpha channel of the clip you apply it to. Version 2 now has the option to preserve the alpha channnel of the original clip.
-
-I have also improved point labels a bit, which can now be colored to distinguish multiple paths. You can also display a name for the path.
-
-Finally, I have added an option to blur the mask. Unlike applying the Mask Feather filter after the 50 Point Bezier Matte, this option does not blur the on screen controls in preview mode, so you can see exactly what the matte will look like rendered.
-
-Many thanks to all those who wrote in with feature ideas, your feedback was always appreciated and welcome.
-
 5 June 2012
 -----------
 
 Since I had to take the original site off .Mac I've decided to release the source under the MIT licence.
 
-I have not used Final Cut for several years and am not sure this even still works with the current version. 
+Compatibility
+-------------
 
+[@REAL6](http://twitter.com/real6) confirmed this still works fine in FCP7. Please let me know if you've used this in later versions.
 
 What's a Bezier Curve?
 ----------------------
