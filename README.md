@@ -25,7 +25,7 @@ Compatibility
 What's a Bezier Curve?
 ----------------------
 
-A Bezier Curve is a line drawn between two points that is bent according to two control points. If you've ever used vector graphics applications such as Illustrator, Freehand or Flash you will already be familiar with the way the control points alter the shape of the curve. If you haven't, these examples demonstrate how the line from point a to point b is altered by the position of the control points c1 and c2.
+A Bezier Curve is a line drawn between two points that is bent according to two control points. If you've ever used vector graphics applications such as Illustrator, Freehand or Flash you will already be familiar with the way the control points alter the shape of the curve.
 
 How to use
 ----------
